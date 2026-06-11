@@ -1,0 +1,58 @@
+---
+// src/pages/terms.astro
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Terms of Service | Vendora Enterprise POS">
+  <Navbar />
+
+  <main class="bg-white pt-24 pb-32 sm:pt-32 sm:pb-40 overflow-hidden">
+    <header class="max-w-3xl mx-auto px-6 lg:px-8 mb-16 text-center">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">
+        Terms of Service
+      </h1>
+      <p class="mt-4 text-sm font-medium text-slate-500 uppercase tracking-widest">
+        Last updated: June 2026
+      </p>
+    </header>
+
+    <article class="max-w-3xl mx-auto px-6 lg:px-8 text-base text-slate-600 leading-relaxed">
+      
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+          1. Account Responsibilities
+        </h2>
+        <p class="mb-6">
+          You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password. Vendora cannot and will not be liable for any loss or damage arising from your failure to comply with these security requirements.
+        </p>
+      </section>
+
+      <hr class="border-slate-100 my-8" />
+
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+          2. Acceptable Use
+        </h2>
+        <p class="mb-6">
+          You agree not to use the Service for any unlawful purpose or in any way that interrupts, damages, or impairs the service.
+        </p>
+      </section>
+
+      <hr class="border-slate-100 my-8" />
+
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900 mb-4">
+          3. Limitation of Liability
+        </h2>
+        <p class="mb-6">
+          In no event shall Vendora, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service.
+        </p>
+      </section>
+
+    </article>
+  </main>
+
+  <Footer />
+</Layout>
